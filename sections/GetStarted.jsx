@@ -36,7 +36,7 @@ const GetStarted = () => (
             <StartSteps
               key={feature}
               number={index + 1}
-              title={feature}
+              text={feature}
             />
           ))}
         </div>
